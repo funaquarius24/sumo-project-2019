@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/04/19 00:44:29 by Eclipse SUMO netedit Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Aquavirus\Desktop\SUMO\2\mine.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Aquavirus\Desktop\SUMO\2\mine.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\Aquavirus\Desktop\SUMO\2\mine.add.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e2Detector id="E0_In_0_8" length="100.00" lane="E0_In_0" pos="190.00" freq="3600.00" file="e2Detector\E0_In_0_8.xml"/>
+    <e2Detector id="E0_In_1_7" length="100.00" lane="E0_In_1" pos="190.00" freq="3600.00" file="e2Detector\0_In_1_7.xml"/>
+    <e2Detector id="E0_In_2_6" length="100.00" lane="E0_In_2" pos="190.00" freq="3600.00" file="e2Detector\E0_In_2_6.xml"/>
+    <e2Detector id="N0_In_0_9" length="100.00" lane="N0_In_0" pos="190.00" freq="3600.00" file="e2Detector\N0_In_0_9.xml"/>
+    <e2Detector id="N0_In_1_10" length="100.00" lane="N0_In_1" pos="190.00" freq="3600.00" file="e2Detector\N0_In_1_10.xml"/>
+    <e2Detector id="N0_In_2_11" length="100.00" lane="N0_In_2" pos="190.00" freq="3600.00" file="e2Detector\N0_In_2_11.xml"/>
+    <e2Detector id="S0_In_0_5" length="100.00" lane="S0_In_0" pos="190.00" freq="3600.00" file="e2Detector\S0_In_0_5.xml"/>
+    <e2Detector id="S0_In_1_4" length="100.00" lane="S0_In_1" pos="190.00" freq="3600.00" file="e2Detector\S0_In_1_4.xml"/>
+    <e2Detector id="S0_In_2_3" length="100.00" lane="S0_In_2" pos="190.00" freq="3600.00" file="e2Detector\S0_In_2_3.xml"/>
+    <e2Detector id="W0_In_0_5" length="100.00" lane="W0_In_0" pos="190.00" freq="3600.00" file="e2Detector\W0_In_0_5.xml"/>
+    <e2Detector id="W0_In_1_4" length="100.00" lane="W0_In_1" pos="190.00" freq="3600.00" file="e2Detector\W0_In_1_4.xml"/>
+    <e2Detector id="W0_In_2_3" length="100.00" lane="W0_In_2" pos="190.00" freq="3600.00" file="e2Detector\W0_In_2_3.xml"/>
+</additional>
